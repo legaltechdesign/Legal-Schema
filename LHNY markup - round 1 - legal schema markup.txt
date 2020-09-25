@@ -1,0 +1,52 @@
+{
+  "@context": "http://www.schema.org",
+   "@type": [
+   "LegalService",
+   "Service"
+ ],
+  "name": "Law Help NY",
+  "url": "https://www.lawhelpny.org/",
+"description": "Access to legal information and free legal help for New Yokers in need of legal assistance.",
+  "image": "https://www.lawhelpny.org/files/B23B29BF-0DED-F7B9-2149-1DB14E1A7DE5/images/LHNY%203_20.png",
+  "logo": "https://www.lawhelpny.org/files/B23B29BF-0DED-F7B9-2149-1DB14E1A7DE5/images/LHNY%203_20.png",
+ 
+"areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "New York"
+    }
+  ],
+"priceRange": "free",
+  "knowsAbout": [
+    "https://taxonomy.legal/term/DI-00-00-00-00",
+    "https://taxonomy.legal/term/FA-00-00-00-00",
+    "https://taxonomy.legal/term/CO-00-00-00-00",
+    "https://taxonomy.legal/term/HE-00-00-00-00",
+    "https://taxonomy.legal/term/BE-00-00-00-00",
+    "https://taxonomy.legal/term/HO-00-00-00-00",
+    "https://taxonomy.legal/term/WO-00-00-00-00",
+    "https://taxonomy.legal/term/MO-00-00-00-00",
+    "https://taxonomy.legal/term/ES-00-00-00-00",
+    "https://taxonomy.legal/term/GO-00-00-00-00",
+    "https://taxonomy.legal/term/VE-00-00-00-00",
+    "https://taxonomy.legal/term/RI-00-00-00-00"
+  ],
+
+  "knowsLanguage": {
+    "@type": "Language",
+    "name": [
+      "English",
+      "Spanish",
+      "French",
+      "Korean",
+      "Russian",
+      "Polish",
+      "Vietnamese",
+      "Haitian; Haitian Creole",
+      "Arabic",
+      "Italian",
+      "Tagalog"
+    ]
+  },
+  "email": "info@nylawhelp.org"
+}

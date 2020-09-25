@@ -1,0 +1,34 @@
+{
+  "@context": "http://www.schema.org",
+   "@type": [
+   "LegalService",
+   "Service"
+ ],
+  "name": "LawHelp Hawaii",
+  "url": "https://www.lawhelp.org/hi/",
+  "image": "https://www.lawhelp.org/files/EAD80A2B-BF27-AE00-DEE5-0D4ED48A9D0F/images/design/New_LH_Logo_HI.png",
+  "description": "LawHelp.Org is a free service that provides legal and self-help information on certain topics to help you understand your rights and responsibilities. It also lists organizations that might be able to help you. It does not give legal advice. This site is maintained and updated by staff at the Legal Aid Society of Hawaii (LASH), a public interest, non-profit law firm that helps individuals and families who cannot afford to hire a private attorney with their civil legal needs. ",
+  "logo": "https://www.lawhelp.org/files/EAD80A2B-BF27-AE00-DEE5-0D4ED48A9D0F/images/design/New_LH_Logo_HI.png",
+  "email": "sergio.alcubilla@legalaidhawaii.org",
+  "priceRange": “Free”,
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Hawaii"
+    }
+  ],
+  "knowsAbout": [
+    "https://taxonomy.legal/term/NA-00-00-00-00",
+    "https://taxonomy.legal/term/RI-00-00-00-00",
+    "https://taxonomy.legal/term/ES-00-00-00-00",
+    "https://taxonomy.legal/term/MO-00-00-00-00",
+    "https://taxonomy.legal/term/BE-00-00-00-00",
+    "https://taxonomy.legal/term/FA-00-00-00-00",
+    "https://taxonomy.legal/term/HO-00-00-00-00",
+    "https://taxonomy.legal/term/VE-00-00-00-00",
+    "https://taxonomy.legal/term/WO-00-00-00-00",
+    "https://taxonomy.legal/term/IM-00-00-00-00",
+    "https://taxonomy.legal/term/GO-00-00-00-00"
+  ]
+}
+

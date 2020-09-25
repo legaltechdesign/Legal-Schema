@@ -1,0 +1,281 @@
+{
+  "@context": "http://www.schema.org",
+   "@type": [
+   "LegalService",
+   "Service"
+ ],
+  "name": "Alaska Legal Services Corporation",
+  "alternateName": "ALSC",
+  "url": "https://www.alsc-law.org",
+  "description": "Alaska Legal Services Corporation (ALSC) is a private, nonprofit law firm. ALSC offers free civil legal services to low income Alaskans, statewide.",
+  "logo": "https://www.alsc-law.org/wp-content/uploads/2017/03/50th-Logo-trans.png",
+  “Image”: "https://www.alsc-law.org/wp-content/uploads/2017/03/50th-Logo-trans.png",
+  "telephone": "(888) 478-2572",
+  "hoursAvailable": "Mo,Tu,We,Th,Fr 9:00-17:00",
+  "areaServed": 
+    {
+      "@type": "AdministrativeArea",
+      "name": "Alaska"
+    }
+
+  "knowsLanguage": [
+    "English"
+  ],
+  "priceRange": "free",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1016 W. 6th Avenue, Suite 200",
+    "addressLocality": "Anchorage",
+    "addressRegion": "AK",
+    "postalCode": "99501"
+  }
+  "knowsAbout": [
+    "https://taxonomy.legal/term/NA-00-00-00-00",
+    "https://taxonomy.legal/term/MO-00-00-00-00",
+    "https://taxonomy.legal/term/FA-00-00-00-00",
+    "https://taxonomy.legal/term/HE-00-00-00-00",
+    "https://taxonomy.legal/term/HO-00-00-00-00",
+    "https://taxonomy.legal/term/BE-00-00-00-00",
+    "https://taxonomy.legal/term/VE-00-00-00-00",
+    "https://taxonomy.legal/term/FA-07-00-00-00",
+    “https://taxonomy.legal/term/ES-00-00-00-00“,
+    “https://taxonomy.legal/term/ED-00-00-00-00”,
+    “https://taxonomy.legal/term/RI-00-00-00-00 “
+    
+  ]
+
+ "serviceType": "Legal Aid",
+ "availableChannel": [
+{
+  "@type": "ServiceChannel",
+"name": "Alaska Legal Services Corporation: Anchorage Office",
+  "availableHours": "Mo,Tu,We,Th,Fr 9:00-17:00",
+  "email": "anchorage@alsc-law.org",
+  "telephone": "(907) 272-9431",
+  "servicePostalAddress": {
+    "@type": "PostalAddress",
+    "streetAddress": "1017 W. 6th Avenue, Suite 200",
+    "addressLocality": "Anchorage",
+    "addressRegion": "AK",
+    "postalCode": "99501"
+  }
+}
+{
+ "@type": "ServiceChannel",
+"name": "Alaska Legal Services Corporation: Bethel Office",
+  "hoursAvailable": "Mo,Tu,We,Th,Fr 9:00-17:00",
+  "email": "bethel@alsc-law.org",
+  "servicePhone": "(907) 543-2237",
+  "servicePostalAddress": {
+    "@type": "PostalAddress",
+    "streetAddress": "460 Ridgecrest, Suite 213",
+   “postOfficeBoxNumber”: “P.O. Box 248”,
+    "addressLocality": "Bethel",
+    "addressRegion": "AK",
+    "postalCode": "99559-0248"
+  }
+}
+{
+  "@type": "ServiceChannel",
+ "name": "Alaska Legal Services Corporation: Bristol Bay Office",
+  "hoursAvailable": "Mo,Tu,We,Th,Fr 9:00-17:00",
+  "email": "dillingham@alsc-law.org",
+  "servicePhone": "(907) 842-1452",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1500 Kanakanak Road, Suite #112C",
+   “postOfficeBoxNumber”: “P.O. Box 176”,
+    "addressLocality": "Dillingham",
+    "addressRegion": "AK",
+    "postalCode": "99576-0176"
+  }
+}
+{
+  "@type": "ServiceChannel",
+"name": "Alaska Legal Services Corporation: Kenai Office",
+  "hoursAvailable": "Mo,Tu,We,Th,Fr 9:00-17:00",
+  "email": "kenai@alsc-law.org",
+  "servicePhone": "(907) 395-0352",
+  "servicePostalAddress": {
+    "@type": "PostalAddress",
+    "streetAddress": "110 N. Willow Street, Ste. 132",
+   “postOfficeBoxNumber”: “P.O. Box 2463”,
+    "addressLocality": "Kenai",
+    "addressRegion": "AK",
+    "postalCode": "99611-2463"
+  }
+}
+{
+ "@type": "ServiceChannel", 
+"name": "Alaska Legal Services Corporation: Palmer Office",
+  "hoursAvailable": "Mo,Tu,We,Th,Fr 9:00-17:00",
+  "email": "palmer@alsc-law.org",
+  "servicePhone": "(907) 746-4636",
+  "servicePostalAddress": {
+    "@type": "PostalAddress",
+    "streetAddress": "634 S. Bailey Street, Suite 102",
+    "addressLocality": "Palmer",
+    "addressRegion": "AK",
+    "postalCode": "99645-6360"
+  }
+}
+{
+  "@type": "ServiceChannel",
+  "name": "Alaska Legal Services Corporation: Fairbanks Office",
+  "hoursAvailable": "Mo,Tu,We,Th,Fr 9:00-17:00",
+  "email": "fairbanks@alsc-law.org",
+  "servicePhone": "(907) 452-5181",
+  "servicePostalAddress": {
+    "@type": "PostalAddress",
+    "streetAddress": "100 Cushman Street, Suite 500",
+    "addressLocality": "Fairbanks",
+    "addressRegion": "AK",
+    "postalCode": "99701-4659"
+  }
+}
+{
+ "@type": "ServiceChannel",
+"name": "Alaska Legal Services Corporation: Utqiagvik - Barrow Office",
+  "hoursAvailable": "Mo,Tu,We,Th,Fr 9:00-17:00",
+  "email": "barrow@alsc-law.org",
+  "servicePhone": "(907) 855-8998",
+  "servicePostalAddress": {
+    "@type": "PostalAddress",
+    "streetAddress": "1078 Kiogak Street, Room 315",
+   “postOfficeBoxNumber”: “P.O. Box 1651”,
+    "addressLocality": "Barrow",
+    "addressRegion": "AK",
+    "postalCode": "99723-1651"
+  }
+}
+{
+ "@type": "ServiceChannel",
+ "name": "Alaska Legal Services Corporation: Kotzebue Office",
+  "hoursAvailable": "Mo,Tu,We,Th,Fr 9:00-17:00",
+  "email": "kotzebue@alsc-law.org",
+  "servicePhone": "(907) 442-3500",
+  "servicePostalAddress": {
+    "@type": "PostalAddress",
+    "streetAddress": "333 Shore Drive - Room 207 Eskimo Bldg.",
+   “postOfficeBoxNumber”: “P.O. Box 526”,
+    "addressLocality": "Kotzebue",
+    "addressRegion": "AK",
+    "postalCode": "99752-0526"
+  }
+}
+{
+   "@type": "ServiceChannel",
+  "name": "Alaska Legal Services Corporation: Nome Office",
+  "hoursAvailable": "Mo,Tu,We,Th,Fr 9:00-17:00",
+  "email": "nome@alsc-law.org",
+  "servicePhone": "(907) 443-2230",
+  "servicePostalAddress": {
+    "@type": "PostalAddress",
+    "streetAddress": "110 Front Street, Suite 204A",
+   “postOfficeBoxNumber”: “P.O. Box 1429”,
+    "addressLocality": "Nome",
+    "addressRegion": "AK",
+    "postalCode": "99762-1429"
+  }
+}
+{
+   "@type": "ServiceChannel",
+  "name": "Alaska Legal Services Corporation: Juneau Office",
+  "hoursAvailable": "Mo,Tu,We,Th,Fr 9:00-17:00",
+  "email": "juneau@alsc-law.org",
+  "servicePhone": "(907) 586-6425",
+  "servicePostalAddress": {
+    "@type": "PostalAddress",
+    "streetAddress": "8800 Glacier Hwy, Suite 228",
+    "addressLocality": "Juneau",
+    "addressRegion": "AK",
+    "postalCode": "99801-8080"
+  }
+}
+{
+  "@type": "ServiceChannel",  
+ "name": "Alaska Legal Services Corporation: Ketchikan Office",
+  "hoursAvailable": "Mo,Tu,We,Th 9:00-14:00",
+  "email": "ketchikan@alsc-law.org",
+  "servicePhone": "(907) 225-6420",
+  "servicePostalAddress": {
+    "@type": "PostalAddress",
+    "streetAddress": "2417 Tongass Avenue, Suite 202B",
+    "addressLocality": "Ketchikan",
+    "addressRegion": "AK",
+    "postalCode": "99901-5969"
+  }
+}
+{
+  “@type”: “ServiceChannel”,    
+"name": "Alaska Legal Services Corporation: Wasilla Connect Mat-Su Office",
+  "servicePhone": "(907) 373-3632",
+  "servicePostalAddress": {
+    "@type": "PostalAddress",
+    "streetAddress": "777 North Crusey Street, Suite A101",
+    "addressLocality": "Wasila",
+    "addressRegion": "AK",
+    "postalCode": "99654"
+  }
+}
+  "contactPoint": 
+    {
+      "@type": "ContactPoint",
+      "url": "https://www.alsc-law.org/application/",
+      "contactType": "Apply for Alaska Legal Services",
+      "areaServed": “Alaska"
+         "availableLanguage": [
+    "English",
+    "gagana faa Samoa",
+    "Wikang Tagalog",
+    "español",
+    "Deutsch",
+    "русский язык"
+      ]
+     },
+  "contactPoint": 
+    {
+      "@type": "ContactPoint",
+      "telephone": "1-888-478-2572",
+ "hoursAvailable": "Mo,Tu,We,Th,Fr 9:00-17:00",  
+      "contactType": "Toll-Free Intake Line",
+      "areaServed": “Alaska"
+              },
+
+"availableChannel": 
+{
+    "@type": "ServiceChannel",
+    "name": "Legal Clinics",
+   	   "url": "https://www.alsc-law.org/legal-clinics/",
+                 "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Alaska"
+  },
+    },
+"availableChannel": [
+{
+    "@type": "ServiceChannel",
+    "name": "Landlord/Tenant Hotline for Anchorage",
+   	    "servicePhone": "+1-907-743-1000",
+                 "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Anchorage, Alaska"
+  },
+"hoursAvailable": [ “Tu 18:00-20:00”, “Th 18:00-20:00”],
+    },
+
+
+"availableChannel": [
+{
+    "@type": "ServiceChannel",
+    "name": "Landlord/Tenant Hotline for Alaska (outside of Anchorage)",
+   	    "servicePhone": "+1-855-743-1001",
+                 "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Alaska"
+  },
+"hoursAvailable": [ “Tu 18:00-20:00”, “Th 18:00-20:00”],
+    },
+
+   
+}

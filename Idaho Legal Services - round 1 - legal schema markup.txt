@@ -1,0 +1,58 @@
+{
+  "@context": "http://www.schema.org",
+  "@type": [
+   "LegalService",
+   "Service"
+ ],
+  "name": "Idaho Legal Aid Services",
+  "url": "https://www.idaholegalaid.org/",
+  "description": "Idaho Legal Aid Services is a nonprofit statewide law firm dedicated to providing equal access to justice for low income people through quality advocacy and education.",
+  "logo": "https://www.idaholegalaid.org/sites/idaholegalaid.org/files/ilas-logo-100.png",
+"image": "https://www.idaholegalaid.org/sites/idaholegalaid.org/files/ilas-logo-100.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1447 S. Tyrell Lane",
+    "addressLocality": "Boise",
+    "addressRegion": "ID",
+    "postalCode": 83706
+  },
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Idaho"
+    }
+  ],
+  "telephone": "208-746-7541",
+  "hoursAvailable": [
+    "Mo 08:30-17:00",
+    "Tu 08:30-17:00",
+    "We 08:30-17:00",
+    "Th 08:30-17:00",
+    "Fr 08:30-17:00"
+  ],
+ "knowsLanguage": {
+    "@type": "Language",
+    "name": [
+      "English",
+      "Arabic",
+      "Swahili",
+      "Persian",
+      "Romanian, Moldavian, Moldovan",
+      "Spanish",
+     "American Sign Language"]
+},
+
+   "priceRange": "free",
+  "knowsAbout": [
+    "https://taxonomy.legal/term/HO-00-00-00-00",
+    "https://taxonomy.legal/term/FA-00-00-00-00",
+    "https://taxonomy.legal/term/IM-13-00-00-00",
+    "https://taxonomy.legal/term/IM-12-00-00-00",
+    "https://taxonomy.legal/term/BE-00-00-00-00",
+    "https://taxonomy.legal/term/MO-00-00-00-00",
+    "https://taxonomy.legal/term/NA-00-00-00-00",
+    "https://taxonomy.legal/term/BE-07-00-00-00",
+    "https://taxonomy.legal/term/FA-15-00-00-00"
+  ]
+}
+ 
