@@ -1,0 +1,7 @@
+Hello!
+
+Our working group created an initial round of Schema.org markup for legal aid groups in Spring 2020. 
+
+This markup is now out of date. We advise you not to use these as guides for your markup.
+
+Instead, use markup from Round 2 in this repository. We have improved the markup standard to be more of a 'Graph' with multiple entities rather than sub-descriptions of a single engity.
