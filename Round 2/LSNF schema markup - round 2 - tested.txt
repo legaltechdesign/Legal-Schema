@@ -1,0 +1,196 @@
+{
+    "@context": "http://schema.org",
+    "@graph": [{
+            "@type": "LegalService",
+             "name": "Legal Services of North Florida",
+              "alternateName": "LSNF",
+             "url": "https://www.lsnf.org",
+            "logo": "https://www.lsnf.org/wp-content/themes/LSNFtheme/assets/images/Logo.png", 
+            "image": "https://www.lsnf.org/wp-content/themes/LSNFtheme/assets/images/Logo.png",
+            "@id": "https://www.lsnf.org/#org",
+            "description": "Legal Services of North Florida (LSNF) is a private, not-for-profit organization that provides no cost civil legal help to low-income and vulnerable individuals, and others who qualify for services.",
+            "priceRange": "Free",
+            "isAccessibleForFree": true,
+            "sameAs": [
+                "https://www.facebook.com/LegalServicesofNorthFlorida/",
+                "https://twitter.com/lsnftweets?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+                "https://www.instagram.com/legalaidhawaii/",
+                "https://www.youtube.com/channel/UCiJaE_0O4Ux3nXOo7Q72G2w",
+                "https://www.linkedin.com/company/legal-services-of-north-florida"
+            ],
+            "knowsAbout": [
+                "https://taxonomy.legal/term/HO-00-00-00-00",
+             "https://taxonomy.legal/term/FA-00-00-00-00",
+    "https://taxonomy.legal/term/ED-00-00-00-00",
+    "https://taxonomy.legal/term/DI-00-00-00-00",
+    "https://taxonomy.legal/term/IM-00-00-00-00",
+    "https://taxonomy.legal/term/RI-00-00-00-00",
+    "https://taxonomy.legal/term/MO-00-00-00-00",
+    "https://taxonomy.legal/term/WO-00-00-00-00",
+    "https://taxonomy.legal/term/VE-00-00-00-00",
+    "https://taxonomy.legal/term/BE-00-00-00-00",
+    "https://taxonomy.legal/term/HE-00-00-00-00",
+    "https://taxonomy.legal/term/NA-00-00-00-00",
+     "https://taxonomy.legal/term/CR-06-00-00-00",
+    "https://taxonomy.legal/term/MO-09-00-00-00",
+    "https://taxonomy.legal/term/FA-07-00-00-00"
+            ],
+            "knowsLanguage": {
+                "@type": "Language",
+                "name": [
+                    "English",
+                "Spanish"
+                ]
+            },
+            "telephone": "(850) 385-9007",
+             "address": {
+   "@type": "PostalAddress",
+   "streetAddress": "2119 Delta Boulevard",
+   "addressLocality": "Tallahassee",
+   "addressRegion": "FL",
+   "postalCode": 32303
+ }
+        },
+        
+{
+            "@type": "Service",
+            "name": "Legal Aid Services",
+            "@id": "https://www.lsnf.org/how-we-help/",
+            "url": "https://www.lsnf.org/how-we-help/",
+            "alternateName": "Legal Aid Services",
+            "serviceType": "Legal Aid",
+            "provider": {
+                "@id": "https://www.lsnf.org/#org"
+            },
+            "areaServed": {
+   "@type": "AdministrativeArea",
+   "name": [
+     "Bay County, FL",
+     "Calhoun County, FL",
+     "Escambia County, FL",
+     "Franklin County, FL",
+     "Gadsden County, FL",
+     "Gulf County, FL",
+     "Holmes County, FL",
+     "Jackson County, FL",
+     "Jefferson County, FL",
+     "Leon County, FL",
+     "Liberty County, FL",
+     "Okaloosa County, FL",
+     "Santa Rosa County, FL",
+     "Wakulla County, FL",
+     "Walton County, FL",
+     "Washington County, FL"
+   ]
+ },
+            "audience": ["Low-income individuals", "Elderly", "Veterans", "Domestic Violence victims"],
+            "availableChannel": {
+                "@type": "ServiceChannel",
+                "serviceUrl": "https://floi.legalserver.org/modules/matter/extern_intake.php?pid=38&h=757e8c",
+                "name": "Intake for Legal Services",
+                "availableLanguage": {
+                    "@type": "Language",
+                    "name": [
+                        "English",
+                        "Spanish"
+                    ]
+                },
+                "servicePhone": [{
+                        "@type": "ContactPoint",
+                        "telephone": "(850) 385-9007",
+                        "contactType": "Intake Line for LSNF",
+                        "areaServed": ["Northern Florida"],
+                        "hoursAvailable": ["Mo-Th 08:30-17:15"]
+                    }
+                    
+                ],
+                "serviceLocation": [{
+                        "@type": "Place",
+                        "name": "Legal Services of North Florida: Pensacola office",
+       "telephone": "505-998-3793",
+     "address": {
+       "@type": "PostalAddress",
+       "streetAddress": "118 South Baylen Street",
+       "addressLocality": "Pensacola",
+       "addressRegion": "FL",
+       "postalCode": 32502
+     }
+                    },
+                    {
+                        "@type": "Place",
+                        "name": "Legal Services of North Florida: Quincy Office",
+                        "telephone": "(850) 875-9881",
+                        "address": {
+                            "@type": "PostalAddress",
+                              "streetAddress": "121 North Jackson Street",
+       "addressLocality": "Quincy",
+       "addressRegion": "FL",
+       "postalCode": 32303
+                        }
+                    },
+                    {
+                        "@type": "Place",
+                        "name": "Legal Services of North Florida: Ft. Walton Beach",
+                        "telephone": "(850) 862-3279",
+                        "address": {
+                            "@type": "PostalAddress",
+                             "streetAddress": "133 Staff Drive, NE",
+       "addressLocality": "Ft. Walton Beach",
+       "addressRegion": "FL",
+       "postalCode": 32548
+                        }
+                    },
+                    {
+                        "@type": "Place",
+                        "name": "Legal Services of North Florida: Panama City office",
+                        "telephone": "(850) 769-3581",
+                        "address": {
+                            "@type": "PostalAddress",
+                             "streetAddress": "211 East 11th Street",
+       "addressLocality": "Panama City",
+       "addressRegion": "FL",
+       "postalCode": 32401
+                        }
+                    },
+                    {
+                        "@type": "Place",
+                        "name": "Legal Services of North Florida: Tallahassee office",
+                        "telephone": "(850) 385-9007",
+                        "address": {
+                            "@type": "PostalAddress",
+                             "streetAddress": "2119 Delta Blvd.",
+       "addressLocality": "Tallahassee",
+       "addressRegion": "FL",
+       "postalCode": 32303
+                        }
+                    }
+                ]
+            }
+        },
+    
+    {
+    "@type": "Article",
+    "name": "What You Need to Know about the CDC Eviction Order",
+    "url": "https://www.lsnf.org/wp-content/uploads/2020/11/CDC-Order-Brochure-10-2020.pdf",
+    "publisher": {
+      "@id": "https://www.lsnf.org/#org"
+      },
+      "author": {
+      "@id": "https://www.lsnf.org/#org"
+      },
+    "datePublished": "November 01, 2020",
+    "headline": "Are you protected from eviction? Covid-19 Legal Help from Legal Services of North Florida",
+    "image": "https://www.lsnf.org/wp-content/themes/LSNFtheme/assets/images/Logo.png", 
+    "about": [
+      "https://taxonomy.legal/term/HO-02-09-00-00",
+      "https://taxonomy.legal/term/HO-02-00-00-00"],
+    "spatialCoverage": ["Florida" ],
+    "inLanguage": {
+       "@type": "Language",
+       "name": [
+         "English"]
+      }
+    }
+    
+    ]
+}

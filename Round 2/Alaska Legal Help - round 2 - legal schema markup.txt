@@ -1,0 +1,41 @@
+{
+  "@context": "http://www.schema.org",
+   "@type": [
+   "LegalService",
+   "Service"
+ ],
+  "name": "Alaska Law Help",
+  "url": "https://alaskalawhelp.org/",
+  "image": "https://alaskalawhelp.org/files/415A60AC-CED2-0813-E7A4-681204E82C22/images/rev-AK_Logo.png",
+  "description": "AlaskaLawHelp is a guide to civil legal services and resources for low-income persons and seniors in Alaska.  This site provides information on various free and low-cost legal programs in Alaska, including basic eligibility and contact information.  Here you can find links to web sites offering helpful information, schedules of free self-help clinics, forms, and legal education documents that give you basic information on a number of legal problems.This site is a service that is made possible through the generosity of the Legal Services Corporation and is supported by a number of partner organizations throughout Alaska.  The web site is maintained by staff at Alaska Legal Services Corporation.",
+  "logo": "https://alaskalawhelp.org/files/415A60AC-CED2-0813-E7A4-681204E82C22/images/rev-AK_Logo.png",
+  "priceRange": "free",
+  "knowsLanguage": {
+    "@type": "Language",
+    "name": [
+      "Spanish",
+      "English",
+      "Tagalog"
+    ]
+ "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Alaska"
+    }
+  ],
+  },
+  "knowsAbout": [
+    "https://taxonomy.legal/term/NA-00-00-00-00",
+    "https://taxonomy.legal/term/ES-00-00-00-00",
+    "https://taxonomy.legal/term/MO-00-00-00-00",
+    "https://taxonomy.legal/term/BE-00-00-00-00",
+    "https://taxonomy.legal/term/FA-00-00-00-00",
+    "https://taxonomy.legal/term/HO-00-00-00-00",
+    "https://taxonomy.legal/term/VE-00-00-00-00",
+    "https://taxonomy.legal/term/WO-00-00-00-00",
+    "https://taxonomy.legal/term/GO-00-00-00-00",
+    "https://taxonomy.legal/term/HE-00-00-00-00",
+    "https://taxonomy.legal/term/DI-00-00-00-00"
+   “https://taxonomy.legal/term/CR-01-00-00-00”
+  ]
+}

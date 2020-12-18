@@ -1,0 +1,74 @@
+{
+    "@context": "http://schema.org",
+    "@graph": [
+    {
+            "@type": "LegalService",
+      "name": "Law Help Hawaii",
+      "@id": "https://www.lawhelp.org/hi/#org",
+      "url": "https://www.lawhelp.org/hi/",
+      "description": "LawHelp Hawaii is a free service that provides legal and self-help information on certain topics to help you understand your rights and responsibilities. It also lists organizations that might be able to help you. It does not give legal advice. This site is maintained and updated by staff at the Legal Aid Society of Hawaii (LASH), a public interest, non-profit law firm that helps individuals and families who cannot afford to hire a private attorney with their civil legal needs.",
+      "image": "https://www.lawhelp.org/files/EAD80A2B-BF27-AE00-DEE5-0D4ED48A9D0F/images/design/New_LH_Logo_HI.png",
+      "logo": "https://www.lawhelp.org/files/EAD80A2B-BF27-AE00-DEE5-0D4ED48A9D0F/images/design/New_LH_Logo_HI.png",
+      "priceRange": "Free",
+            "isAccessibleForFree": true,
+
+      "areaServed": ["Hawaii" ],
+      "knowsAbout": [
+      "https://taxonomy.legal/term/NA-00-00-00-00",
+       "https://taxonomy.legal/term/RI-00-00-00-00",
+       "https://taxonomy.legal/term/ES-00-00-00-00",
+       "https://taxonomy.legal/term/MO-00-00-00-00",
+       "https://taxonomy.legal/term/BE-00-00-00-00",
+       "https://taxonomy.legal/term/FA-00-00-00-00",
+       "https://taxonomy.legal/term/HO-00-00-00-00",
+       "https://taxonomy.legal/term/VE-00-00-00-00",
+       "https://taxonomy.legal/term/WO-00-00-00-00",
+       "https://taxonomy.legal/term/IM-00-00-00-00",
+       "https://taxonomy.legal/term/GO-00-00-00-00" ],
+       "email": "sergio.alcubilla@legalaidhawaii.org",
+      "knowsLanguage": {
+         "@type": "Language",
+         "name": [
+         "English"
+         ]},
+    },
+
+    {
+    "@type": "Article",
+    "name": "Eviction: The Court Process",
+    "url": "https://www.lawhelp.org/hi/resource/eviction-the-court-process?ref=2fls1",
+    "author": {
+      "@id": "https://www.legalaidhawaii.org/#org"
+      },
+    "dateModified": "September 21, 2018",
+    "description": "This brochure describes what a private landlord and tenant go through when the landlord is trying to evict the tenant.",
+    "about": [
+      https://taxonomy.legal/term/HO-02-00-00-00"],
+    "spatialCoverage": ["Hawaii" ],
+    "inLanguage": {
+       "@type": "Language",
+       "name": [
+         "English"]
+      }
+    }
+    {
+    "@type": "FAQPage",
+    "name": "What does the CDC's COVID-19 Eviction Moratorium do?",
+    "url": "https://alaskalawhelp.org/resource/cdc-eviction-moratorium?ref=SRIGI",
+    "author": {
+      "@id": "https://www.alsc-law.org/#org"
+      },
+    "dateModified": "September 8, 2020",
+    "description": "Frequently asked questions from renters about the CDC Eviction Moratorium",
+    "about": [
+      "https://taxonomy.legal/term/HO-06-05-02-00",
+      "https://taxonomy.legal/term/HO-10-01-00-00"],
+    "spatialCoverage": ["Alaska" ],
+    "inLanguage": {
+       "@type": "Language",
+       "name": [
+         "English"]
+      }
+    }
+    ]
+}

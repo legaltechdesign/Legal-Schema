@@ -1,0 +1,73 @@
+{
+    "@context": "http://schema.org",
+    "@graph": [
+    {
+            "@type": "LegalService",
+      "name": "Law Help NY",
+      "@id": "https://www.lawhelpny.org/#org",
+      "url": "https://www.lawhelpny.org/",
+      "description": "Law Help NY provides access to legal information and free legal help for New Yorkers in need of legal assistance.",
+      "image": "https://www.lawhelpny.org/files/B23B29BF-0DED-F7B9-2149-1DB14E1A7DE5/images/LHNY%203_20.png",
+      "logo": "https://www.lawhelpny.org/files/B23B29BF-0DED-F7B9-2149-1DB14E1A7DE5/images/LHNY%203_20.png",
+      "priceRange": "Free",
+            "isAccessibleForFree": true,
+      "sameAs": [
+      "https://www.facebook.com/LawHelpNY/",
+      "https://twitter.com/lawhelpny?lang=en",
+      "https://www.youtube.com/user/LawHelpNY",
+      "https://www.linkedin.com/company/lawhelp-ny/"
+      ],
+      "areaServed": ["New York" ],
+      "knowsAbout": [
+          "https://taxonomy.legal/term/DI-00-00-00-00",
+          "https://taxonomy.legal/term/FA-00-00-00-00",
+          "https://taxonomy.legal/term/CO-00-00-00-00",
+          "https://taxonomy.legal/term/HE-00-00-00-00",
+          "https://taxonomy.legal/term/BE-00-00-00-00",
+          "https://taxonomy.legal/term/HO-00-00-00-00",
+          "https://taxonomy.legal/term/WO-00-00-00-00",
+          "https://taxonomy.legal/term/MO-00-00-00-00",
+          "https://taxonomy.legal/term/ES-00-00-00-00",
+          "https://taxonomy.legal/term/GO-00-00-00-00",
+          "https://taxonomy.legal/term/VE-00-00-00-00",
+          "https://taxonomy.legal/term/RI-00-00-00-00"  ],
+      "knowsLanguage": {
+         "@type": "Language",
+         "name": [
+           "English",
+           "Spanish",
+           "French",
+           "Korean",
+           "Russian",
+           "Polish",
+           "Vietnamese",
+           "Haitian; Haitian Creole",
+           "Arabic",
+           "Italian",
+           "Tagalog"
+         ]},
+      "email": "info@nylawhelp.org"
+    },
+
+    {
+    "@type": "Article",
+    "name": "Settlement and Stipulation checklists for tenants in NYC Housing Court",
+    "url": "https://www.lawhelpny.org/resource/settlement-and-stipulation-checklists-for-tenants-in-nyc-housing-court?ref=BFwF7",
+    "author": {
+      "@id": "https://www.lawhelpny.org/#org"
+      },
+    "dateModified": "June 29, 2016",
+    "description": "Checklists of things litigants should keep in mind when entering negotiations with their landlord about settling their cases for non-payment of rent and a checklist of things to consider including in stipulations. A stipulation is a written agreement that sets out how the landlord and tenant resolve their dispute, and usually follows the negotiations.",
+    "about": [
+      "https://taxonomy.legal/term/HO-02-09-00-00",
+      "https://taxonomy.legal/term/HO-02-00-00-00"],
+    "spatialCoverage": ["New York" ],
+    "inLanguage": {
+       "@type": "Language",
+       "name": [
+         "English",
+         "Spanish"]
+      }
+    }
+    ]
+}
