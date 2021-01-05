@@ -17,13 +17,13 @@
       "English",
       "Tagalog"
     ]
- "areaServed": [
+  },
+  "areaServed": [
     {
       "@type": "AdministrativeArea",
       "name": "Alaska"
     }
   ],
-  },
   "knowsAbout": [
     "https://taxonomy.legal/term/NA-00-00-00-00",
     "https://taxonomy.legal/term/ES-00-00-00-00",
@@ -35,7 +35,7 @@
     "https://taxonomy.legal/term/WO-00-00-00-00",
     "https://taxonomy.legal/term/GO-00-00-00-00",
     "https://taxonomy.legal/term/HE-00-00-00-00",
-    "https://taxonomy.legal/term/DI-00-00-00-00"
-   “https://taxonomy.legal/term/CR-01-00-00-00”
+    "https://taxonomy.legal/term/DI-00-00-00-00",
+    "https://taxonomy.legal/term/CR-01-00-00-00"
   ]
 }
