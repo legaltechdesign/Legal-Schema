@@ -30,7 +30,7 @@
          "@type": "Language",
          "name": [
          "English"
-         ]},
+         ]}
     },
 
     {
@@ -43,14 +43,14 @@
     "dateModified": "September 21, 2018",
     "description": "This brochure describes what a private landlord and tenant go through when the landlord is trying to evict the tenant.",
     "about": [
-      https://taxonomy.legal/term/HO-02-00-00-00"],
+      "https://taxonomy.legal/term/HO-02-00-00-00"],
     "spatialCoverage": ["Hawaii" ],
     "inLanguage": {
        "@type": "Language",
        "name": [
          "English"]
       }
-    }
+    },
     {
     "@type": "FAQPage",
     "name": "What does the CDC's COVID-19 Eviction Moratorium do?",

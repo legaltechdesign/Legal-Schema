@@ -6,7 +6,7 @@
       "name": "Idaho Legal Aid Services",
       "@id": "https://www.idaholegalaid.org/#org",
       "url": "https://www.idaholegalaid.org/",
-      "description": "Idaho Legal Aid Services is a nonprofit statewide law firm dedicated to providing equal access to justice for low income people through quality advocacy and education.,
+      "description": "Idaho Legal Aid Services is a nonprofit statewide law firm dedicated to providing equal access to justice for low income people through quality advocacy and education.",
       "image": "https://www.idaholegalaid.org/sites/idaholegalaid.org/files/ilas-logo-100.png",
       "logo": "https://www.idaholegalaid.org/sites/idaholegalaid.org/files/ilas-logo-100.png",
       "priceRange": "Free",
@@ -46,7 +46,7 @@
            "addressRegion": "ID",
            "postalCode": 83706
            },
-        "telephone": "208-746-7541",
+        "telephone": "208-746-7541"
 
     },
 
@@ -84,7 +84,7 @@
         "serviceUrl": [{
             "url": "https://www.idaholegalaid.org/node/2413/apply-legal-assistance",
             "name": "Apply Online for Legal Assistance"
-        }]
+        }],
 
         "servicePhone": [{
             "@type": "ContactPoint",
@@ -97,10 +97,10 @@
         "serviceLocation": [{
             "@type": "Place",
             "name": "Boise Office of Idaho Legal Aid Services",
-            "areaServed" : [Ada County, Boise County, Elmore County, Valley County]
+            "areaServed" : ["Ada County", "Boise County", "Elmore County", "Valley County"],
             "phone": "(208) 746-7541",
             "fax": "(208) 342-2561",
-            "hoursAvailable": ["Mo-Fr 8:30-17:00"]
+            "hoursAvailable": ["Mo-Fr 8:30-17:00"],
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "1447 S Tyrell Lane",
@@ -109,13 +109,12 @@
               "postalCode": "83706"
               }
             },
-          ],
-          "serviceLocation": [{
+            {
               "@type": "Place",
               "name": "Couer d'Alene Office of Idaho Legal Aid Services",
-              "areaServed" : [Benewah County, Bonner County, Boundary County, Kootenai County, Shoshone County]
+              "areaServed" : ["Benewah County", "Bonner County", "Boundary County", "Kootenai County", "Shoshone County"],
               "phone": "(208) 746-7541",
-              "hoursAvailable": ["Mo-Fr 8:30-17:00"]
+              "hoursAvailable": ["Mo-Fr 8:30-17:00"],
               "fax": "(208) 664-0931",
               "address": {
                 "@type": "PostalAddress",
@@ -125,13 +124,12 @@
                 "postalCode": "83814"
                 }
               },
-            ],
-            "serviceLocation": [{
+              {
                 "@type": "Place",
                 "name": "Idaho Falls Office of Idaho Legal Aid Services",
-                "areaServed" : [Bingham County, Bonneville County, Butte County, Clark County, Custer County, Fremont County, Jefferson County, Lemhi County, Madison County, Teton County]
+                "areaServed" : ["Bingham County", "Bonneville County", "Butte County", "Clark County", "Custer County", "Fremont County", "Jefferson County", "Lemhi County", "Madison County", "Teton County"],
                 "phone": "(208) 746-7541",
-                "hoursAvailable": ["Mo-Fr 8:30-17:00"]
+                "hoursAvailable": ["Mo-Fr 8:30-17:00"],
                 "fax": "(208) 524-4983",
                 "address": {
                   "@type": "PostalAddress",
@@ -141,13 +139,12 @@
                   "postalCode": "83402"
                   }
                 },
-              ],
-              "serviceLocation": [{
+                {
                   "@type": "Place",
                   "name": "Lewiston Office of Idaho Legal Aid Services",
-                  "areaServed" : [Clearwater County, Idaho County, Latah County, Lewis County, Nez Perce County]
+                  "areaServed" : ["Clearwater County", "Idaho County", "Latah County", "Lewis County", "Nez Perce County"],
                   "phone": "(208) 746-7541",
-                  "hoursAvailable": ["Mo-Fr 8:30-17:00"]
+                  "hoursAvailable": ["Mo-Fr 8:30-17:00"],
                   "fax": "(208) 743-3261",
                   "address": {
                     "@type": "PostalAddress",
@@ -157,13 +154,12 @@
                     "postalCode": "83501"
                     }
                   },
-                ],
-                "serviceLocation": [{
+                  {
                     "@type": "Place",
                     "name": "Nampa Office of Idaho Legal Aid Services",
-                    "areaServed" : [Adams County, Canyon County, Gem County, Owyhee County, Payette County, Washington County]
+                    "areaServed" : ["Adams County", "Canyon County", "Gem County", "Owyhee County", "Payette County", "Washington County"],
                     "phone": "(208) 746-7541",
-                    "hoursAvailable": ["Mo-Fr 8:30-17:00"]
+                    "hoursAvailable": ["Mo-Fr 8:30-17:00"],
                     "fax": "(208) 454-2593",
                     "address": {
                       "@type": "PostalAddress",
@@ -173,13 +169,12 @@
                       "postalCode": "83686"
                       }
                     },
-                  ],
-                  "serviceLocation": [{
+                    {
                       "@type": "Place",
                       "name": "Pocatello Office of Idaho Legal Aid Services",
-                      "areaServed" : [Bannock County, Bear Lake County, Caribou County, Franklin County, Oneida County, Power County]
+                      "areaServed" : ["Bannock County", "Bear Lake County", "Caribou County", "Franklin County", "Oneida County", "Power County"],
                       "phone": "(208) 746-7541",
-                      "hoursAvailable": ["Mo-Fr 8:30-17:00"]
+                      "hoursAvailable": ["Mo-Fr 8:30-17:00"],
                       "fax": "(208) 233-0453",
                       "address": {
                         "@type": "PostalAddress",
@@ -189,13 +184,12 @@
                         "postalCode": "83204"
                         }
                       },
-                    ],
-                    "serviceLocation": [{
+                      {
                         "@type": "Place",
                         "name": "Twin Falls Office of Idaho Legal Aid Services",
-                        "areaServed" : [Blaine County, Camas County, Cassia County, Gooding County, Jerome County, Lincoln County, Minidoka County, Twin Falls County]
+                        "areaServed" : ["Blaine County", "Camas County", "Cassia County", "Gooding County", "Jerome County", "Lincoln County", "Minidoka County", "Twin Falls County"],
                         "phone": "(208) 746-7541",
-                        "hoursAvailable": ["Mo-Fr 8:30-17:00"]
+                        "hoursAvailable": ["Mo-Fr 8:30-17:00"],
                         "fax": "(208) 734-7067",
                         "address": {
                           "@type": "PostalAddress",
@@ -204,13 +198,10 @@
                           "addressRegion": "ID",
                           "postalCode": "83301"
                           }
-                        },
+                        }
                       ]
-
-
           }
-        ]
-      }
+      },
       {
         "@type": "Service",
         "name": "Senior Legal Advice Hotline",
@@ -219,7 +210,7 @@
         "provider": {
           "@id": "http://www.idaholegalaid.org/#org"
         },
-        "description": "If you are a senior (age 60 or older) and you need help with a civil legal problem, you have a question you think a lawyer should answer, or you have been sued and don’t know where to turn, call our Senior Legal Advice Line."
+        "description": "If you are a senior (age 60 or older) and you need help with a civil legal problem, you have a question you think a lawyer should answer, or you have been sued and don’t know where to turn, call our Senior Legal Advice Line.",
         "hoursAvailable": ["Mo-Fr 10:00-12:30, 13:30-16:30"],
         "areaServed": [{
           "@type": "AdministrativeArea",
@@ -244,7 +235,7 @@
             ]
           }
         }
-    }
+    },
     {
       "@type": "Service",
       "name": "Domestic Violence Legal Advice Hotline",
@@ -253,7 +244,7 @@
       "provider": {
         "@id": "http://www.idaholegalaid.org/#org"
       },
-      "description": "If you are a domestic violence, dating violence, sexual assault, or stalking survivor and you need help with a legal problem, such as obtaining a protection order or a divorce, you have a question you think a lawyer should answer, or you simply don’t know where to turn, call our Domestic Violence Legal Advice Line."
+      "description": "If you are a domestic violence, dating violence, sexual assault, or stalking survivor and you need help with a legal problem, such as obtaining a protection order or a divorce, you have a question you think a lawyer should answer, or you simply don’t know where to turn, call our Domestic Violence Legal Advice Line.",
       "hoursAvailable": ["Mo-Fr 10:00-12:30, 13:30-16:30"],
       "areaServed": [{
         "@type": "AdministrativeArea",
@@ -278,7 +269,7 @@
           ]
         }
       }
-  }
+  },
   {
     "@type": "Service",
     "name": "Housing Legal Advice Hotline",
@@ -287,7 +278,7 @@
     "provider": {
       "@id": "http://www.idaholegalaid.org/#org"
     },
-    "description": " If you are a tenant and need help with a legal problem related to your housing (such as evictions, repairs, security deposits, or housing discrimination) or you are a homeowner that needs help with foreclosure prevention, you have a question you think a lawyer should answer, or you have been sued and don’t know where to turn, call our Housing Advice Line."
+    "description": " If you are a tenant and need help with a legal problem related to your housing (such as evictions, repairs, security deposits, or housing discrimination) or you are a homeowner that needs help with foreclosure prevention, you have a question you think a lawyer should answer, or you have been sued and don’t know where to turn, call our Housing Advice Line.",
     "hoursAvailable": ["Mo-Fr 10:00-12:30, 13:30-16:30"],
     "areaServed": [{
       "@type": "AdministrativeArea",
