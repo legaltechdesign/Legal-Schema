@@ -1,0 +1,340 @@
+{
+	"@context": "http://schema.org",
+	"@graph": [{
+			"@type": "LegalService",
+			"name": "Legal Aid Society of Hawaii",
+			"alternateName": "LASH",
+			"url": "http://www.legalaidhawaii.org",
+			"@id": "http://www.legalaidhawaii.org/#org",
+			"description": "The Legal Aid Society of Hawaii is a public interest, non-profit law firm dedicated to assisting the low-to-moderate income community with its critical legal needs. Their mission is to achieve fairness and justice for Hawaii's people through high quality representation, advocacy, community partnerships, education and outreach. It does not help with criminal or personal injury matters.",
+			"logo": "https://www.legalaidhawaii.org/uploads/2/3/9/0/23902043/published/4610022.jpg?1489199710",
+			"image": "https://www.legalaidhawaii.org/uploads/2/3/9/0/23902043/published/4610022.jpg?1489199710",
+			"priceRange": "Free",
+			"isAccessibleForFree": true,
+			"sameAs": [
+				"https://www.facebook.com/legalaidhawaii/",
+				"https://twitter.com/legalaidhawaii/",
+				"https://www.instagram.com/legalaidhawaii/",
+				"https://www.youtube.com/channel/UCidcoPSY4bRTzf22e2UjxIA",
+				"https://www.linkedin.com/company/legal-aid-society-of-hawaii/"
+			],
+			"knowsAbout": [
+				"https://taxonomy.legal/term/HO-00-00-00-00",
+				"https://taxonomy.legal/term/FA-00-00-00-00",
+				"https://taxonomy.legal/term/BE-00-00-00-00",
+				"https://taxonomy.legal/term/IM-00-00-00-00",
+				"https://taxonomy.legal/term/MO-00-00-00-00",
+				"https://taxonomy.legal/term/HE-00-00-00-00",
+				"https://taxonomy.legal/term/CO-00-00-00-00"
+			],
+			"knowsLanguage": {
+				"@type": "Language",
+				"name": [
+					"English",
+					"Marshallese",
+					"Spanish",
+					"Filipino",
+					"Chuukese",
+					"Pohnepian",
+					"Kosraean"
+				]
+			},
+			"email": "info@legalaidhawaii.org",
+			"telephone": "1-808-536-4302",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "924 Bethel Street",
+				"addressLocality": "Honolulu",
+				"addressRegion": "HI",
+				"postalCode": 96813,
+				"name": "Legal Aid Society of Hawaii main address"
+			}
+		},
+		{
+			"@type": "Service",
+			"name": "Walk-In Legal Clinic",
+			"@id": "https://www.legalaidhawaii.org/#clinic",
+			"url": "http://www.legalaidhawaii.org",
+			"serviceType": "Legal Clinic",
+			"provider": {
+				"@id": "http://www.legalaidhawaii.org/#org"
+			},
+			"areaServed": [{
+				"@type": "State",
+				"name": "Hawaii",
+				"@id": "https://en.wikipedia.org/wiki/Hawaii"
+			}],
+			"hoursAvailable": ["Mo-Fr 09:00-11:30"],
+			"audience": ["Low-income individuals", "Elderly", "Veterans", "Domestic Violence victims"],
+			"availableChannel": {
+				"@type": "ServiceChannel",
+				"availableLanguage": {
+					"@type": "Language",
+					"name": [
+						"English",
+						"Marshallese",
+						"Spanish",
+						"Filipino",
+						"Chuukese",
+						"Pohnepian",
+						"Kosraean"
+					]
+				},
+				"serviceLocation": {
+					"@type": "Place",
+					"name": "Legal Aid Society of Hawaii: Honolulu office"
+				},
+				"servicePostalAddress": {
+					"@type": "PostalAddress",
+					"streetAddress": "924 Bethel Street",
+					"addressLocality": "Honolulu",
+					"addressRegion": "HI",
+					"postalCode": 96813
+				}
+			}
+		},
+		{
+			"@type": "Service",
+			"name": "Legal Aid Services",
+			"@id": "https://www.legalaidhawaii.org/what-we-do.html",
+			"url": "https://www.legalaidhawaii.org/what-we-do.html",
+			"alternateName": "Legal Aid",
+			"serviceType": "Legal Aid",
+			"provider": {
+				"@id": "http://www.legalaidhawaii.org/#org"
+			},
+			"areaServed": {
+				"@type": "AdministrativeArea",
+				"name": "Hawaii",
+				"@id": "https://en.wikipedia.org/wiki/Hawaii"
+			},
+			"audience": ["Low-income individuals", "Elderly", "Veterans", "Domestic Violence victims"],
+			"availableChannel": {
+				"@type": "ServiceChannel",
+				"serviceUrl": "https://www.legalaidhawaii.org/what-we-do.html",
+				"availableLanguage": {
+					"@type": "Language",
+					"name": [
+						"English",
+						"Marshallese",
+						"Spanish",
+						"Filipino",
+						"Chuukese",
+						"Pohnepian",
+						"Kosraean"
+					]
+				},
+				"servicePhone": [{
+						"@type": "ContactPoint",
+						"telephone": "808-536-4302",
+						"contactType": "Intake Hotline for Oahu",
+						"areaServed": ["Oahu"],
+						"hoursAvailable": ["Mo-Fr 09:00-11:30", "Mo-Fr 13:00-15:30"]
+					},
+					{
+						"@type": "ContactPoint",
+						"telephone": "1-800-499-4302",
+						"contactType": "Intake Hotline for Neighbor Islands",
+						"areaServed": ["Neighbor Islands"],
+						"hoursAvailable": ["Mo-Fr 09:00-11:30", "Mo-Fr 13:00-15:30"]
+					}
+				],
+				"serviceLocation": [{
+						"@type": "Place",
+						"name": "Legal Aid Society of Hawaii: Honolulu office",
+						"address": {
+							"@type": "PostalAddress",
+							"streetAddress": "924 Bethel Street",
+							"addressLocality": "Honolulu",
+							"addressRegion": "HI",
+							"postalCode": "96813"
+						}
+					},
+					{
+						"@type": "Place",
+						"name": "Legal Aid Society of Hawaii: Windward Oahu office",
+						"address": {
+							"@type": "PostalAddress",
+							"streetAddress": "45-955 Kamehameha Hwy., Kaneohe Bay Plaza, Suite 206",
+							"addressLocality": "Kaneohe",
+							"addressRegion": "HI",
+							"postalCode": "96744"
+						}
+					},
+					{
+						"@type": "Place",
+						"name": "Legal Aid Society of Hawaii: Leeward Oahu office",
+						"address": {
+							"@type": "PostalAddress",
+							"streetAddress": "85-670 Farrington Hwy.",
+							"addressLocality": "Waianae",
+							"addressRegion": "HI",
+							"postalCode": "96792"
+						}
+					},
+					{
+						"@type": "Place",
+						"name": "Legal Aid Society of Hawaii: Kona office",
+						"address": {
+							"@type": "PostalAddress",
+							"streetAddress": "Hualalai Center, Suite B303A, 75-170 Hualalai Road",
+							"addressLocality": "Kailua-Kona",
+							"addressRegion": "HI",
+							"postalCode": "96740"
+						}
+					},
+					{
+						"@type": "Place",
+						"name": "Legal Aid Society of Hawaii: Hilo office",
+						"address": {
+							"@type": "PostalAddress",
+							"streetAddress": "101 Aupuni Street, PH 1002",
+							"addressLocality": "Hilo",
+							"addressRegion": "HI",
+							"postalCode": "96720"
+						}
+					},
+					{
+						"@type": "Place",
+						"name": "Legal Aid Society of Hawaii: Maui office",
+						"address": {
+							"@type": "PostalAddress",
+							"streetAddress": "24 N. Church Street, Suite 401",
+							"addressLocality": "Wailuku",
+							"addressRegion": "HI",
+							"postalCode": "96792"
+						}
+					},
+					{
+						"@type": "Place",
+						"name": "Legal Aid Society of Hawaii: Molokai office",
+						"address": {
+							"@type": "PostalAddress",
+							"streetAddress": "19-23 Ala Malama Street",
+							"addressLocality": "Kaunakakai",
+							"addressRegion": "HI",
+							"postalCode": "96748"
+						}
+					},
+					{
+						"@type": "Place",
+						"name": "Legal Aid Society of Hawaii: Kauai office",
+						"address": {
+							"@type": "PostalAddress",
+							"streetAddress": "3016 Umi St.Suite 220",
+							"addressLocality": "Lihue, Kauai",
+							"addressRegion": "HI",
+							"postalCode": "96766"
+						}
+					},
+					{
+						"@type": "Place",
+						"name": "Legal Aid Society of Hawaii: Lanai office",
+						"address": {
+							"@type": "PostalAddress",
+							"streetAddress": "730 Lanai Avenue, Suite 0315",
+							"addressLocality": "Lanai City",
+							"addressRegion": "HI",
+							"postalCode": "96763"
+						}
+					}
+				]
+			}
+		},
+		{
+			"@type": "Service",
+			"name": "Fair Housing Hotline",
+			"@id": "https://www.legalaidhawaii.org/#housing-hotline",
+			"serviceType": ["Housing Legal Help Hotline"],
+			"provider": {
+				"@id": "http://www.legalaidhawaii.org/#org"
+			},
+			"areaServed": {
+				"@type": "AdministrativeArea",
+				"name": "Hawaii",
+				"@id": "https://en.wikipedia.org/wiki/Hawaii"
+			},
+			"audience": "Seniors age 60+",
+			"availableChannel": {
+				"@type": "ServiceChannel",
+				"servicePhone": "1-866-527-3247",
+				"serviceURL": "https://www.fairhousinghawaii.org/",
+				"availableLanguage": {
+					"@type": "Language",
+					"name": [
+						"English",
+						"Marshallese",
+						"Spanish",
+						"Filipino",
+						"Chuukese",
+						"Pohnepian",
+						"Kosraean"
+					]
+				}
+			}
+		},
+		{
+			"@type": "Service",
+			"name": "Senior Hotline for Neighbor Islands",
+			"@id": "https://www.legalaidhawaii.org/#senior-hotline-neighbor",
+			"serviceType": "Senior Legal Help Hotline",
+			"provider": {
+				"@id": "http://www.legalaidhawaii.org/#org"
+			},
+			"areaServed": [{
+				"@type": "AdministrativeArea",
+				"name": "Hawaii Neighbor Islands"
+			}],
+			"audience": "Seniors age 60+",
+			"availableChannel": {
+				"@type": "ServiceChannel",
+				"servicePhone": "1-888-536-0011",
+				"serviceURL": "https://www.legalaidhawaii.org/call.html",
+				"availableLanguage": {
+					"@type": "Language",
+					"name": [
+						"English",
+						"Marshallese",
+						"Spanish",
+						"Filipino",
+						"Chuukese",
+						"Pohnepian",
+						"Kosraean"
+					]
+				}
+			}
+		},
+		{
+			"@type": "Service",
+			"name": "Senior Hotline for Oahu",
+			"@id": "https://www.legalaidhawaii.org/#senior-hotline-oahu",
+			"serviceType": "Senior Legal Help Hotline",
+			"provider": {
+				"@id": "http://www.legalaidhawaii.org/#org"
+			},
+			"areaServed": [{
+				"@type": "AdministrativeArea",
+				"name": "Oahu",
+				"@id": "https://www.wikidata.org/wiki/Q131347"
+			}],
+			"audience": "Seniors age 60+",
+			"availableChannel": {
+				"@type": "ServiceChannel",
+				"servicePhone": "1-808-536-00111",
+				"serviceURL": "https://www.legalaidhawaii.org/call.html",
+				"availableLanguage": {
+					"@type": "Language",
+					"name": [
+						"English",
+						"Marshallese",
+						"Spanish",
+						"Filipino",
+						"Chuukese",
+						"Pohnepian",
+						"Kosraean"
+					]
+				}
+			}
+		}
+	]
+}
