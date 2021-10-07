@@ -1,0 +1,19 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ 
+ #invalid_json{     
+    border: 1px solid red; padding:10px; background: rgba(255, 185, 0, 0.1);
+    /* background: #FBE3E4;
+    color: #D12F19;
+    border-color: #FBC2C4; */
+ }
+ #valid_json{
+    border: 1px solid #46b450; padding:10px; background: rgba(70, 180, 80, 0.1)
+ }
+
+ .json_alert .hidden{
+     display: none;
+ }
